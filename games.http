@@ -1,0 +1,15 @@
+GET http://localhost:5035/games
+
+###
+GET http://localhost:5035/games/4
+
+###
+POST  http://localhost:5035/games
+Content-Type: application/json
+
+{
+    "name" : "Super Mario",
+    "genre" : "platform",
+    "price" : 59.99,
+    "releaseDate" : "2020-03-05"
+}
